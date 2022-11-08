@@ -8,6 +8,25 @@ export default {
   args: {
     children: 'Send',
   },
+  argTypes: {
+    variant: {
+      options: ['primary', 'secondary', 'tertiary'],
+      defaultValue: 'primary',
+      control: 'inline-radio',
+    },
+    size: {
+      options: ['sm', 'md'],
+      defaultValue: 'md',
+      control: 'inline-radio',
+    },
+    disabled: {
+      defaultValue: false,
+      control: 'boolean',
+    },
+    onClick: {
+      action: 'click',
+    },
+  },
 } as Meta<ButtonProps>
 
 export const Primary: StoryObj<ButtonProps> = {}
