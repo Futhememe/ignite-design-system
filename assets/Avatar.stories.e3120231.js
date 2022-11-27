@@ -1,0 +1,2 @@
+import{A as t}from"./index.1578d951.js";import"./index.a823aa6e.js";import"./iframe.c6075d04.js";import"./index.37886b56.js";import"./jsx-runtime.a2854a86.js";const c={title:"Data display/Avatar",component:t,args:{src:"https://avatars.githubusercontent.com/u/55204851?v=4",alt:"Gustavo S Souza"},argTypes:{src:{control:{type:"text"}}}},e={},p={args:{src:void 0}},m=["Primary","WithFallback"];export{e as Primary,p as WithFallback,m as __namedExportsOrder,c as default};
+//# sourceMappingURL=Avatar.stories.e3120231.js.map
